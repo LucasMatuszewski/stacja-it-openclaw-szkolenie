@@ -1,0 +1,356 @@
+2026-04-15 16:06:44 From Łukasz Matuszewski To Everyone:
+	Warsztat: Autonomiczni Agenci AI z OpenClaw — 17:00–21:00
+	
+	17:00 Start + ankieta + weryfikacja środowiska
+	17:20 Moduł 1 — Możliwości, ograniczenia i zagrożenia OpenClaw
+	17:45 Moduł 2 — Instalacja i konfiguracja
+	18:35 ☕ PRZERWA (10 min)
+	18:45 Moduł 3 — Bezpieczny dostęp zdalny: Tailscale, SSH
+	19:10 Moduł 4 — Komunikator (WhatsApp)
+	19:30 Moduł 5 — Personalizacja instrukcji i pamięć agenta
+	19:55 ☕ PRZERWA (10 min)
+	20:05 Moduł 6 — Automatyzacja: Cron, Heartbeat, Skills, MCP, Search
+	20:40 Moduł 7 — Koszty, optymalizacja, logi, monitoring + podsumowanie
+	21:00 Koniec (mogę zostać chwilę dłużej jeśli ktoś ma problem z uruchomieniem agenta)
+	
+2026-04-15 16:18:54 From Łukasz Matuszewski To Everyone:
+	Weryfikacja środowiska — wpisz w terminalu:
+	
+	node --version    ← potrzebujesz 22.14+
+	npm --version
+	git --version
+	
+	Wyniki wrzuć na chat!
+	Jeśli node nie jest w wersji 22.14+ — instalacja:
+	https://docs.openclaw.ai/install/node
+	
+2026-04-15 16:19:16 From Łukasz Matuszewski To Everyone:
+	node --version
+	npm --version
+	git --version
+	
+2026-04-15 16:20:21 From Łukasz Matuszewski To Everyone:
+	Windows — rekomendowana konfiguracja:
+	• WSL2 (Ubuntu) — najlepiej działa: https://learn.microsoft.com/pl-pl/windows/wsl/install
+	• Git Bash — jako minimum: https://git-scm.com/downloads/win
+	• PowerShell — może działać, ale mogą być problemy
+	
+	Jeśli masz WSL2 — wszystkie komendy wykonuj wewnątrz WSL!
+	
+2026-04-15 16:21:27 From Łukasz Matuszewski To Everyone:
+	https://x.com/openclaw
+	
+2026-04-15 16:21:41 From Łukasz Matuszewski To Everyone:
+	https://x.com/steipete
+	
+2026-04-15 16:23:04 From Łukasz Matuszewski To Everyone:
+	https://github.com/openclaw/openclaw/releases
+	
+2026-04-15 16:40:33 From Łukasz Matuszewski To Everyone:
+	Gemma 4 od Google
+	
+	https://arena.ai/leaderboard/text 
+	https://arena.ai/leaderboard/text?license=open-source 
+	
+	https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/ 
+	https://deepmind.google/models/gemma/gemma-4/
+	
+2026-04-15 16:41:18 From Łukasz Matuszewski To Everyone:
+	Repozytorium:
+	https://github.com/LucasMatuszewski/stacja-it-openclaw-szkolenie/
+	
+2026-04-15 16:42:47 From Łukasz Matuszewski To Everyone:
+	https://www.pcmag.com/news/meta-security-researchers-openclaw-ai-agent-accidentally-deleted-her-emails
+	
+2026-04-15 16:46:23 From Patryk Stachula To Everyone:
+	openrouter
+	Adam Mańkowski:👍
+	
+2026-04-15 16:46:57 From Łukasz Matuszewski To Everyone:
+	https://openrouter.ai/collections/free-models 
+	
+	Free models
+	
+2026-04-15 16:47:53 From Łukasz Matuszewski To Everyone:
+	https://docs.ollama.com/quickstart
+	
+2026-04-15 16:48:06 From Łukasz Matuszewski To Everyone:
+	https://ollama.com/library/glm-5.1
+	
+2026-04-15 16:49:10 From Łukasz Matuszewski To Everyone:
+	gemma4:31b-cloud
+	
+2026-04-15 16:49:10 From Robert Juzaszek To Everyone:
+	ja chatgpt plus
+	
+2026-04-15 16:49:16 From Łukasz Matuszewski To Everyone:
+	https://ollama.com/library/gemma4
+	
+2026-04-15 16:50:11 From Jacek Woroch To Everyone:
+	spróbuje na kluczu API z OpenAI
+	
+2026-04-15 16:50:57 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/start/getting-started
+	
+2026-04-15 16:50:59 From Hubert Krynicki To Everyone:
+	Klucz api do xAi
+	
+2026-04-15 16:53:52 From Łukasz Matuszewski To Everyone:
+	https://docs.docker.com/ai/sandboxes/ 
+	
+	Docker Sandboxes
+	
+2026-04-15 16:54:29 From Łukasz Matuszewski To Everyone:
+	https://www.nvidia.com/en-eu/ai/nemoclaw/
+	
+2026-04-15 16:54:42 From Jacek Woroch To Everyone:
+	Step-by-step WSL2 install
+	https://docs.openclaw.ai/platforms/windows#step-by-step-wsl2-install
+	
+2026-04-15 16:57:34 From Łukasz Matuszewski To Everyone:
+	https://en.wikipedia.org/wiki/Prompt_injection
+	
+2026-04-15 16:59:04 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/gateway/security
+	
+2026-04-15 17:03:10 From Łukasz Matuszewski To Everyone:
+	https://openclaw.ai/install.sh
+	
+2026-04-15 17:03:42 From Łukasz Matuszewski To Everyone:
+	curl -fsSL https://openclaw.ai/install.sh | bash
+	
+2026-04-15 17:04:09 From Łukasz Matuszewski To Everyone:
+	Windows bez WSL2 (Power Shell):
+	iwr -useb https://openclaw.ai/install.ps1 | iex
+	
+2026-04-15 17:05:25 From Łukasz Matuszewski To Everyone:
+	18:15 koniec przerwy
+	
+2026-04-15 17:07:33 From Łukasz Matuszewski To Everyone:
+	https://nodejs.org/en/download
+	
+2026-04-15 17:19:21 From Robert Juzaszek To Everyone:
+	rozumiem że można go wyłączyć w kazdej chwili :) ?
+	
+2026-04-15 17:22:43 From Łukasz Matuszewski To Everyone:
+	openclaw onboard --install-daemon
+	
+2026-04-15 17:23:32 From Łukasz Matuszewski To Everyone:
+	openclaw onboard --install-daemon
+	
+2026-04-15 17:23:45 From Łukasz Matuszewski To Everyone:
+	│  Run regularly:                                                                            │
+	│  openclaw security audit --deep                                                            │
+	│  openclaw security audit --fix                                                             │
+	│                                                                                            │
+	│  Must read: https://docs.openclaw.ai/gateway/security
+	
+2026-04-15 17:24:20 From Łukasz Matuszewski To Everyone:
+	Zasady bezpieczeństwa — podstawy:
+	
+	🔒 URZĄDZENIE
+	• Najlepiej dedykowane urządzenie (stary laptop, mini PC)
+	• Tylko dane i narzędzia których agent potrzebuje
+	• Nie trzymaj na nim prywatnych kluczy, haseł do banku itp.
+	
+	🔒 DOSTĘP
+	• Osobne konta API / tokeny tylko dla agenta
+	• Drafts only — agent tworzy szkice, Ty akceptujesz
+	• Soft Delete — agent nie usuwa, tylko przenosi do kosza
+	• Dedykowany user na systemie operacyjnym (opcjonalnie)
+	
+	🔒 SIEĆ
+	• Tailscale do prywatnego dostępu (nie otwieraj portów na świat)
+	• SSH zamiast haseł
+	
+	🔒 BACKUP
+	• Git dla projektów i konfiguracji agenta
+	• Backup przyrostowy co godzinę (ideał)
+	
+	Omówimy szczegóły przy Tailscale i SSH za chwilę.
+	
+2026-04-15 17:25:52 From Łukasz Matuszewski To Everyone:
+	Z.ai Coding plan
+	(referral link for additional 10% off: https://z.ai/subscribe?ic=IA5VBRGQV4, starting at $18/m for 3x Claude Pro usage),
+	
+	MiniMax M2.7 Token Plan (starting at $10/m)
+	
+2026-04-15 17:26:13 From Łukasz Matuszewski To Everyone:
+	https://z.ai/subscribe
+	
+2026-04-15 17:26:55 From Łukasz Matuszewski To Everyone:
+	https://platform.minimax.io/subscribe/token-plan
+	
+2026-04-15 17:32:04 From Hubert Krynicki To Everyone:
+	Może openclaw onboard?
+	
+2026-04-15 17:38:08 From Łukasz Matuszewski To Everyone:
+	openclaw onboard --install-daemon
+	
+2026-04-15 17:38:48 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/start/wizard
+	
+2026-04-15 17:46:34 From Łukasz Matuszewski To Everyone:
+	Codex Subscription:
+	https://docs.openclaw.ai/providers/openai#codex-subscription
+	
+2026-04-15 18:08:32 From Łukasz Matuszewski To Everyone:
+	https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=en
+	
+2026-04-15 18:09:21 From Łukasz Matuszewski To Everyone:
+	@BotFather
+	
+2026-04-15 18:09:59 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/telegram
+	
+2026-04-15 18:13:24 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/gateway/doctor
+	
+2026-04-15 18:14:23 From Robert Juzaszek To Everyone:
+	ja mam tak samo, wpisuje kod telegrama albo whatsapa i potem jest trim error
+	
+2026-04-15 18:14:27 From Robert Juzaszek To Everyone:
+	macos
+	
+2026-04-15 18:19:54 From Robert Juzaszek To Everyone:
+	wyglada na to ze to blad w tej wersji openclaw bo ludzie tak samo maja na reddit
+	
+2026-04-15 18:19:58 From Robert Juzaszek To Everyone:
+	https://www.reddit.com/r/openclaw/comments/1slanbq/help_installing_stuck_on_channel_selection/
+	
+2026-04-15 18:21:09 From Robert Juzaszek To Everyone:
+	downgrade do poprzedniej wersji pomaga podobno
+	npm install -g openclaw@2026.4.12
+	
+2026-04-15 18:21:18 From Robert Juzaszek To Everyone:
+	vibecoding ;)
+	
+2026-04-15 18:22:51 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/gateway/protocol 
+	
+	Oprotocols and APIs do komunikacji z agentem z włąsnych aplikacji
+	
+2026-04-15 18:23:47 From Robert Juzaszek To Everyone:
+	albo pominac kanaly w configuracji w gui i skonfigurowac kanal w pliku tez ma dzialac
+	
+2026-04-15 18:28:36 From Łukasz Matuszewski To Everyone:
+	@BotFather
+	
+2026-04-15 18:36:19 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/channels/telegram#dm-policy 
+	
+	Telegram Direct Message Policy - koniecznie dodajcie allowList
+	
+2026-04-15 18:37:47 From Łukasz Matuszewski To Everyone:
+	openclaw gateway restart
+	
+2026-04-15 18:39:09 From Robert Juzaszek To Everyone:
+	Mi poszło w manualnym po downgradzie
+	
+2026-04-15 18:39:17 From Robert Juzaszek To Everyone:
+	Albo pominac w konifguratorze
+	
+2026-04-15 18:39:27 From Robert Juzaszek To Everyone:
+	i potem w pliku dodac recznie
+	
+2026-04-15 18:40:17 From Hubert Krynicki To Everyone:
+	Restart pomógł, dzięki
+	
+2026-04-15 18:46:09 From Łukasz Matuszewski To Everyone:
+	Web Search: https://docs.openclaw.ai/tools/web
+	
+2026-04-15 18:49:10 From Jacek Woroch To Everyone:
+	{E19512CA-74F4-438B-ABD8-C09A97CF2904}.png
+	
+2026-04-15 18:53:10 From Łukasz Matuszewski To Everyone:
+	20:03 koniec przerwy
+	
+2026-04-15 18:59:46 From Łukasz Matuszewski To Everyone:
+	Zapomniałem powiedzieć o opcji Pairing dla DM Policy - czyli przy pierwszej rozmowie wymaga sparowania i automatycznie dodaje do allow listy:
+	
+	```
+	Configure DM access policies now? (default: pairing)
+	│ ○ Yes / ● No
+	```
+	
+2026-04-15 19:00:46 From Łukasz Matuszewski To Everyone:
+	Dla przypomnienia:
+	
+	Openclaw Doctor:
+	https://docs.openclaw.ai/gateway/doctor
+	
+2026-04-15 19:08:45 From Łukasz Matuszewski To Everyone:
+	Skills - Wyszukiwarka umiejętności i workflows
+	
+	https://clawhub.ai/ 
+	
+	https://skills.sh/
+	
+2026-04-15 19:10:44 From Łukasz Matuszewski To Everyone:
+	https://agentskills.io/what-are-skills
+	
+2026-04-15 19:28:08 From Łukasz Matuszewski To Everyone:
+	Repo GitHub gdzie będzie więcej plików i przykładów po szkoleniu: https://github.com/LucasMatuszewski/stacja-it-openclaw-szkolenie/tree/main
+	
+2026-04-15 19:45:55 From Łukasz Matuszewski To Everyone:
+	openclaw agents add <name>
+	
+2026-04-15 19:47:38 From Robert Juzaszek To Everyone:
+	moze udalo by sie odpalic tego agenta ?
+	
+2026-04-15 19:49:11 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/concepts/soul 
+	
+	https://docs.openclaw.ai/concepts/agent 
+	
+	
+	Multi Agents:
+	https://docs.openclaw.ai/concepts/multi-agent
+	
+2026-04-15 19:50:23 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/concepts/memory 
+	
+	Pamięć agenta
+	
+2026-04-15 19:51:14 From Łukasz Matuszewski To Everyone:
+	https://docs.openclaw.ai/start/openclaw#give-the-agent-a-workspace-agents
+	
+2026-04-15 19:56:46 From Łukasz Matuszewski To Everyone:
+	openclaw dashboard
+	
+2026-04-15 19:58:57 From Łukasz Matuszewski To Everyone:
+	openclaw setup
+	
+2026-04-15 20:03:07 From Robert Juzaszek To Everyone:
+	openai mi tez nie odpisuje
+	
+2026-04-15 20:03:55 From Łukasz Matuszewski To Everyone:
+	https://github.com/LucasMatuszewski/stacja-it-openclaw-szkolenie/tree/main
+	
+2026-04-15 20:06:15 From Łukasz Matuszewski To Everyone:
+	lucas.matuszewski@gmail.com
+	
+2026-04-15 20:08:44 From Piotr Łupiński To Everyone:
+	dzieki za szkolenie :)
+	
+2026-04-15 20:09:52 From Robert Juzaszek To Everyone:
+	thx uciekam
+	
+2026-04-15 20:10:38 From Paulina Wawdysz To Everyone:
+	dzieki
+	
+2026-04-15 20:12:46 From Łukasz Matuszewski To Everyone:
+	Ankieta: https://tinyurl.com/utuvnusw
+	
+2026-04-15 20:21:37 From Łukasz Matuszewski To Everyone:
+	Tunele dla dostępu do agenta poza siecią lokalną:
+	
+	Prywatnie:
+	https://tailscale.com/ 
+	
+	Publicznie
+	https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/
+	
+2026-04-15 20:25:32 From Rumiia Bakhtiiarova To Everyone:
+	dzieki
+	
