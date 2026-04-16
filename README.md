@@ -50,5 +50,6 @@ Rekomenduję 4 poziomy backupu dla użądzenia, na którym pracuje agent:
 
 Zgodnie z obietnicą w root repo dodaje moje przykładowe pliki, nieco uproszczone i zanonimizowane, ale z bardziej zaawansowanymi konfiguracjami (np. multi-agents, fallback models, allow lists, itd.) oraz skrypt do anonimizacji pliku `openclaw.json`
 
+- plik konfiguracyjny `openclaw.template.json` jako przykład dla pliku `openclaw.json`
 - plik `.gitignore` z przykładowymi folderami i plikami do wykluczenia z `.openclaw` jeśli zdecydujecie się trzymać w repo cały folder a nie tylko workspace agenta.
 - skrypt do anonimizacji pliku `openclaw.json`: `anonimize-config.py` (odpalamy np. przez `python anonimize-config.py` w folderze w którym znajduje się config - można np. podpiąć pod hook z Husky przed push do git repo) - poprawiłem go aby usuwał także `api-key` ;)
