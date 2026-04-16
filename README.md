@@ -7,6 +7,10 @@ https://stacja.it/produkt/autonomiczni-agenci-ai-z-openclaw/
 
 ## Update po szkoleniu
 
+### Pliki z podsumowaniem i historia chata Zoom
+
+Znajdziesz je w folderze `/docs` w repo. Są tam wszystkie linki jakie wysyłałem.
+
 ### Błąd `trim` naprawiony w wersji 4.15
 
 Błąd jaki pojawił się na szkoleniu dla onboardingu w wersji 4.14 został już naprawiony w wersji 4.15 (póki co w beta testach, jutro powinien być release stabilny):
